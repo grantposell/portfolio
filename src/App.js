@@ -1,30 +1,34 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import Main from "./components/main";
+import { Link } from 'react-router-dom';
+
 
 class App extends Component {
   render() {
     return (
       <div className="demo-big-content">
         <Layout>
-          <Header title="Grant Posell" scroll>
+          <Header className="header-color" title="Grant Posell | Portfolio" scroll>
             <Navigation>
-              <a href="/">Link</a>
-              <a href="/">Link</a>
-              <a href="/">Link</a>
-              <a href="/">Link</a>
+              <Link to="/resume">Resume</Link>
+              <Link to="/aboutme">About Me</Link>
+              <Link to="/projects">Projects</Link>
+              <Link to="/contact">Contacts</Link>
             </Navigation>
           </Header>
-          <Drawer title="Title">
+          <Drawer title="My Portfolio">
             <Navigation>
-              <a href="#">Link</a>
-              <a href="#">Link</a>
-              <a href="#">Link</a>
-              <a href="#">Link</a>
+              <Link to="/resume">Resume</Link>
+              <Link to="/aboutme">About Me</Link>
+              <Link to="/projects">Projects</Link>
+              <Link to="/contact">Contacts</Link>
             </Navigation>
           </Drawer>
           <Content>
             <div className="page-content" />
+            <Main></Main>
           </Content>
         </Layout>
       </div>
