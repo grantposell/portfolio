@@ -15,8 +15,24 @@ class LandingPage extends Component {
 
                     <div className="banner-text">
                     <h1>Full Stack Web Developer</h1>
+
                     <hr />
-                    
+
+                    <p>HTML/CSS | JavaScript | React | NodeJS</p>
+                    <div className="social-links">
+                    {/* LinkedIn */}
+                    <a href="http//google.com" rel= "noopener noreferrer" target="_blank">
+                    <i className="fa fa-linkedin-square"  aria-hidden="true" />
+                    </a>
+                    {/* Github */}
+                    <a href="http//google.com" rel= "noopener noreferrer" target="_blank">
+                    <i className="fa fa-github-square"  aria-hidden="true" />
+                    </a>
+                    {/* Stack Overflow */}
+                    <a href="http//google.com" rel= "noopener noreferrer" target="_blank">
+                    <i className="fa fa-stack-overflow"  aria-hidden="true" />
+                    </a>
+                    </div>
                     </div>
                     </Cell>
                 </Grid>
