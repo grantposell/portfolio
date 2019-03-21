@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Education from './education';
+import Experience from './experience';
+import Skills from './skills';
 
 class Resume extends Component {
     render() {
@@ -47,10 +49,41 @@ class Resume extends Component {
                         startYear={2013}
                         endMonth="December"
                         endYear={2016}
-                        schoolName="Texas A&M University"
+                        schoolName="Blinn College"
                         schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
                         />
-                    
+                        <hr style={{borderTop: '3px solid #e22947'}}/>
+                        <h2>Experience</h2>
+                        <Experience 
+                        startYear={2009}
+                        endYear={2012}
+                        jobName="First Job"
+                        jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                        />
+                        <Experience 
+                        startYear={2009}
+                        endYear={2012}
+                        jobName="Second Job"
+                        jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                        />
+                        <hr style={{borderTop: '3px solid #e22947'}}/>
+                        <h2>Skills</h2>
+                        <Skills 
+                        skill="javascript"
+                        progress={100}
+                        />
+                        <Skills 
+                        skill="html/css"
+                        progress={80}
+                        />
+                        <Skills 
+                        skill="nodejs"
+                        progress={50}
+                        />
+                        <Skills 
+                        skill="React"
+                        progress={25}
+                        />
                     </Cell>
                 </Grid>
             </div>
