@@ -2,7 +2,7 @@
   "name": "myportfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://grantposell.github.io/portfolio",
+  "homepage": "https://grantposell.github.io",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.4",
