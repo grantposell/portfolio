@@ -36,7 +36,8 @@ class Resume extends Component {
                     <Cell className="resume-right-col" col={8}>
                         <h2>Summary</h2>
                         <Summary
-                        />
+                        mywork="•Full Stack Developer with an eagerness to learn and grow with any company."/>
+                        
                         <h2>Education</h2>
 
 

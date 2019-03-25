@@ -6,6 +6,7 @@ class Summary extends Component {
         return(
             <Grid>
                 <Cell col={12}>
+                <p>{this.props.mysummary}</p>
                 </Cell>
             </Grid>
             )
