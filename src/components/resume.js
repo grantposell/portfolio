@@ -74,10 +74,13 @@ class Resume extends Component {
                             jobDescription2="• 	Communicates with clients to understand their needs and contributes to  revenue generating projects."
                         />
                         <Experience
-                            startYear={2009}
-                            endYear={2012}
-                            jobName="Second Job"
-                            jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                            startMonth="January"
+                            startYear={2017}
+                            endMonth="May"
+                            endYear={2018}
+                            jobName="Connective Talent"
+                            jobDescription1="•	Utilizes Bullhorn CRM Software, Monster and LinkedIn with Boolean search strings to populate a list for Cold Calling."
+                            jobDescription2="•	Creates conversation with candidates to understand their situation with the intent to help them in their careers." 
                         />
                         <hr style={{ borderTop: '3px solid #388544' }} />
                         <h2>Skills</h2>
