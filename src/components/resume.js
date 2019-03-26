@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+import { Grid, Cell, Button } from 'react-mdl';
 import Summary from './summary';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import ResumeUpload from './resumeupload';
 
 class Resume extends Component {
     render() {
@@ -36,25 +37,19 @@ class Resume extends Component {
                     <Cell className="resume-right-col" col={8}>
                         <h2>Summary</h2>
                         <Summary/>
-
+                        <hr style={{borderTop: '3px solid #e22947'}}/>
                         <h2>Education</h2>
-
-
                         <Education 
-                        startMonth="January"
-                        startYear={2013}
                         endMonth="December"
                         endYear={2016}
                         schoolName="Texas A&M University"
-                        schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                        degree="•	B.A. in Communication, Minor: Business"
                         />
                         <Education 
-                        startMonth="January"
-                        startYear={2013}
-                        endMonth="December"
-                        endYear={2016}
+                        endMonth="May"
+                        endYear={2014}
                         schoolName="Blinn College"
-                        schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                        degree="•	A.A. in Foreign Language "
                         />
                         <hr style={{borderTop: '3px solid #e22947'}}/>
                         <h2>Experience</h2>
@@ -88,7 +83,9 @@ class Resume extends Component {
                         skill="React"
                         progress={25}
                         />
+                        <ResumeUpload/>
                     </Cell>
+                    
                 </Grid>
             </div>
         )

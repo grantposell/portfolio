@@ -6,7 +6,7 @@ class Summary extends Component {
         return(
             <Grid>
                 <Cell col={12}>
-                <p>•    Full Stack Developer with an eagerness to learn and grow with any company./]</p>
+                <p>•    Full Stack Developer with an eagerness to learn and grow with any company.</p>
                 </Cell>
             </Grid>
             )
