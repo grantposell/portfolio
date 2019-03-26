@@ -79,6 +79,7 @@ class Resume extends Component {
                             endMonth="May"
                             endYear={2018}
                             jobName="Connective Talent"
+                            jobPosition1="Associate Recruiter"
                             jobDescription1="•	Utilizes Bullhorn CRM Software, Monster and LinkedIn with Boolean search strings to populate a list for Cold Calling."
                             jobDescription2="•	Creates conversation with candidates to understand their situation with the intent to help them in their careers." 
                         />
