@@ -18,7 +18,7 @@ class LandingPage extends Component {
 
                     <hr />
 
-                    <p>HTML/CSS | JavaScript | React | NodeJS</p>
+                    <p>HTML/CSS | JavaScript | React | NodeJS | MongoDB | MySQL | Firebase</p>
                     <div className="social-links">
                     {/* LinkedIn */}
                     <a href="https://www.linkedin.com/in/grantposell/" rel= "noopener noreferrer" target="_blank">
