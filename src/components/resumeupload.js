@@ -8,7 +8,7 @@ class ResumeUpload extends Component {
                 <Cell col={10}>
                 </Cell>
                 <Cell col={2}>
-                <Button raised ripple colored>Upload</Button>
+                <Button raised ripple colored style={{backgroundColor: '#003973'}}>Upload</Button>
                 </Cell>
             </Grid>
             )

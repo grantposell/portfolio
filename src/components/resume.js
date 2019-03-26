@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Cell, Button } from 'react-mdl';
+import { Grid, Cell } from 'react-mdl';
 import Summary from './summary';
 import Education from './education';
 import Experience from './experience';
@@ -21,25 +21,32 @@ class Resume extends Component {
                         </div>
                         <h2 style={{ paddingTop: '2em' }}>Grant Posell</h2>
                         <h4 style={{ color: 'grey' }}>Programmer</h4>
-                        <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+                        <hr style={{ borderTop: '3px solid #388544', width: '100%' }} />
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                        <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+                        <hr style={{ borderTop: '3px solid #388544', width: '100%' }} />
                         <h5>Address</h5>
-                        <p>2827 Dunvale Rd, Apt 6415,Houston, TX 77063 </p>
+                        <p>2827 Dunvale Road<br/>Apartment 6415<br />Houston, TX 77063 </p>
                         <h5>Phone</h5>
                         <p>(832) 530-8222</p>
                         <h5>Email</h5>
                         <p>grantposell@gmail.com</p>
-                        <h5>Web</h5>
-                        <p>grantposell.github.io</p>
-                        <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+                        <h5>Github</h5>
+                        <p>https://www.github.com/grantposell
+                        </p>
+                        <hr style={{ borderTop: '3px solid #388544', width: '100%' }} />
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
                         <ResumeUpload />
                         <h2>Summary</h2>
                         <Summary />
-                        <hr style={{ borderTop: '3px solid #e22947' }} />
+                        <hr style={{ borderTop: '3px solid #388544' }} />
                         <h2>Education</h2>
+                        <Education
+                        endMonth="July"
+                        endYear={2018}
+                        schoolName="University of Texas - Houston Coding Bootcamp"
+                        degree="•	Certificate in Full Stack Web Development " 
+                        />
                         <Education
                             endMonth="December"
                             endYear={2016}
@@ -52,13 +59,19 @@ class Resume extends Component {
                             schoolName="Blinn College"
                             degree="•	A.A. in Foreign Language "
                         />
-                        <hr style={{ borderTop: '3px solid #e22947' }} />
+                        <hr style={{ borderTop: '3px solid #388544' }} />
+                        <h2>Projects</h2>
+                        <hr style={{ borderTop: '3px solid #388544' }} />
                         <h2>Experience</h2>
                         <Experience
-                            startYear={2009}
-                            endYear={2012}
-                            jobName="First Job"
-                            jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                            startMonth="May"
+                            startYear={2018}
+                            endYear="Present"
+                            jobName="Insperity"
+                            jobPosition1="Web Developer"
+                            jobPosition2="Sourcing Analyst"
+                            jobDescription1="•	Evaluating, acquiring, and actively seeking out candidates for clients of ours who deal in small to medium sized companies."
+                            jobDescription2="• 	Communicates with clients to understand their needs and contributes to  revenue generating projects."
                         />
                         <Experience
                             startYear={2009}
@@ -66,7 +79,7 @@ class Resume extends Component {
                             jobName="Second Job"
                             jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
                         />
-                        <hr style={{ borderTop: '3px solid #e22947' }} />
+                        <hr style={{ borderTop: '3px solid #388544' }} />
                         <h2>Skills</h2>
                         <Skills
                             skill="javascript"
