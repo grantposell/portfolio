@@ -10,7 +10,8 @@ class ResumeProjects extends Component {
                 <Cell col={8}>
                 <h4 style={{ marginTop: '0px', marginBottom: "0px" }}>{this.props.projectName}</h4>
                 <p>
-                    {this.props.languages}<br/><br/>  
+                    {this.props.projectDescription1}<br/>
+                    {this.props.projectDescription2}<br/>  
                 </p>
                 </Cell>
             </Grid>

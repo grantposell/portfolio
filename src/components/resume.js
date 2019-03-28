@@ -6,7 +6,6 @@ import TechSkills from './techskills';
 import ResumeProjects from './resumeprojects';
 import Experience from './experience';
 import OldExperience from './oldexperience';
-import Skills from './skills';
 import ResumeUpload from './resumeupload';
 
 class Resume extends Component {
@@ -79,6 +78,23 @@ class Resume extends Component {
                             versioncontrols="GitHub, Team Foundation Server (TFS), GitLab"
                         />
                         <hr style={{ borderTop: '3px solid #003973' }} />
+                        <h2>Projects</h2>
+                        <ResumeProjects
+                        projectName="Stock Market Pets"
+                        projectDescription1="•	Developed the social aspect of our application by coding the backend working with JavaScript, Node.js, MySQL, and MongoDB."
+                        projectDescription2="•	The features that we created were the ability to find, select, add friends, and talk more over a platform forum."
+                        />
+                        <ResumeProjects
+                        projectName="Hiking Application"
+                        projectDescription1="•	Worked in a team to build a hiking application that uses HTML5, CSS3, JavaScript, Bootstrap, Google Maps RESTful APIs, Hike Project API, Open Weather API, and Google Firebase."
+                        projectDescription2="•	This application can be found under WAAG in Github and was made to help people locate hiking trails in any given area."
+                        />
+                        <ResumeProjects
+                        projectName="FareTrade"
+                        projectDescription1="•	Worked in a team to build a platform by which locals can buy and sell local products. The application was built using HTML5, CSS3, JavaScript, jQuery, Bootstrap, Node.js, OAuth, MySQL, and deployed using Heroku. "
+                        />
+                        <hr style={{ borderTop: '3px solid #003973' }} />
+
                         <h2>Experience</h2>
                         <Experience
                             startMonth="May"
@@ -107,23 +123,6 @@ class Resume extends Component {
                             jobDescription2="•	Creates conversation with candidates to understand their situation with the intent to help them in their careers." 
                         />
                         <hr style={{ borderTop: '3px solid #003973' }} />
-                        <h2>Skills</h2>
-                        <Skills
-                            skill="Javascript"
-                            progress={100}
-                        />
-                        <Skills
-                            skill="HTML/CSS"
-                            progress={80}
-                        />
-                        <Skills
-                            skill="NodeJS"
-                            progress={50}
-                        />
-                        <Skills
-                            skill="ReactJS"
-                            progress={25}
-                        />
                         <ResumeUpload />
                     </Cell>
 
