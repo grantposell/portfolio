@@ -13,7 +13,7 @@ class Contact extends Component {
                             alt="avatar"
                             style={{ height: '250px' }}
                         />
-                        <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                        <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>Thank you for taking the time to look over my portfolio. I am open to both freelance and fulltime work opportunities. If you have any questions about my skill set or abilities, please reach out on the form below. I look forward to speaking with you soon.</p>
                     </Cell>
                     <Cell col={6}>
                         <h2>Contact Me</h2>
