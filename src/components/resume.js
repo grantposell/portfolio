@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Summary from './summary';
 import Education from './education';
+import TechSkills from './techskills';
 import ResumeProjects from './resumeprojects';
 import Experience from './experience';
 import OldExperience from './oldexperience';
@@ -22,10 +23,10 @@ class Resume extends Component {
                             />
                         </div>
                         <h2 style={{ paddingTop: '2em' }}>Grant Posell</h2>
-                        <h4 style={{ color: 'grey' }}>Programmer</h4>
-                        <hr style={{ borderTop: '3px solid #388544', width: '100%' }} />
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                        <hr style={{ borderTop: '3px solid #388544', width: '100%' }} />
+                        <h4 style={{ color: 'grey' }}>Full Stack Web Developer</h4>
+                        <hr style={{ borderTop: '3px solid #003973', width: '100%' }} />
+                        <p>I am a Recruiter turned Full Stack Web Developer. My passion for coding and building new applications derives from my curiosity of the world. Working on projects in teams and constantly learning from mistakes brings me to be a better coder and person. I am a fast learner and eager to work on projects in rapid environments. I look forward to working with you in the future.</p>
+                        <hr style={{ borderTop: '3px solid #003973', width: '100%' }} />
                         <h5>Address</h5>
                         <p>2827 Dunvale Road<br/>Apartment 6415<br />Houston, TX 77063 </p>
                         <h5>Phone</h5>
@@ -35,13 +36,13 @@ class Resume extends Component {
                         <h5>Github</h5>
                         <p>https://www.github.com/grantposell
                         </p>
-                        <hr style={{ borderTop: '3px solid #388544', width: '100%' }} />
+                        <hr style={{ borderTop: '3px solid #003973', width: '100%' }} />
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
                         <ResumeUpload />
                         <h2>Summary</h2>
                         <Summary />
-                        <hr style={{ borderTop: '3px solid #388544' }} />
+                        <hr style={{ borderTop: '3px solid #003973' }} />
                         <h2>Education</h2>
                         <Education
                         endMonth="July"
@@ -61,9 +62,9 @@ class Resume extends Component {
                             schoolName="Blinn College"
                             degree="•	A.A. in Foreign Language "
                         />
-                        <hr style={{ borderTop: '3px solid #388544' }} />
-                        <h2 style={{marginBottom: '0px'}}>Projects</h2>
-                        <ResumeProjects
+                        <hr style={{ borderTop: '3px solid #003973' }} />
+                        <h2 style={{marginBottom: '0px'}}>Technical Skills</h2>
+                        <TechSkills
                             language="Languages"
                             languages="HTML, CSS, and JavaScript, JSON"
                             framework="Framework"
@@ -77,7 +78,7 @@ class Resume extends Component {
                             versioncontrol="Version Control"
                             versioncontrols="GitHub, Team Foundation Server (TFS), GitLab"
                         />
-                        <hr style={{ borderTop: '3px solid #388544' }} />
+                        <hr style={{ borderTop: '3px solid #003973' }} />
                         <h2>Experience</h2>
                         <Experience
                             startMonth="May"
@@ -105,7 +106,7 @@ class Resume extends Component {
                             jobDescription1="•	Utilizes Bullhorn CRM Software, Monster and LinkedIn with Boolean search strings to populate a list for Cold Calling."
                             jobDescription2="•	Creates conversation with candidates to understand their situation with the intent to help them in their careers." 
                         />
-                        <hr style={{ borderTop: '3px solid #388544' }} />
+                        <hr style={{ borderTop: '3px solid #003973' }} />
                         <h2>Skills</h2>
                         <Skills
                             skill="Javascript"

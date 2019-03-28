@@ -6,23 +6,11 @@ class ResumeProjects extends Component {
         return (
             <Grid>
                 <Cell col={4}>
-                <p>
-                    {this.props.language}:<br/> 
-                    {this.props.framework}:<br/>
-                    {this.props.library}:<br/>
-                    {this.props.database}:<br/>
-                    {this.props.serverside}:<br/> 
-                    {this.props.versioncontrol}:<br/>    
-                </p>
                 </Cell>
                 <Cell col={8}>
+                <h4 style={{ marginTop: '0px', marginBottom: "0px" }}>{this.props.projectName}</h4>
                 <p>
-                    {this.props.languages}<br/> 
-                    {this.props.frameworks}<br/>
-                    {this.props.libraries}<br/>
-                    {this.props.databases}<br/>
-                    {this.props.serversides}<br/> 
-                    {this.props.versioncontrols}<br/> 
+                    {this.props.languages}<br/><br/>  
                 </p>
                 </Cell>
             </Grid>
