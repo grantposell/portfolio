@@ -9,9 +9,9 @@ class Education extends Component {
                 <p>{this.props.endMonth} {this.props.endYear}</p>
                 </Cell>
                 <Cell col={8}>
-                    <h4 style={{marginTop: '0px'}}>
+                    <h4 style={{marginTop: '0px', marginBottom: '0px'}}>
                     {this.props.schoolName}</h4>
-                    <h6>{this.props.degree}</h6>
+                    <h6 style={{marginTop: '0px', marginBottom: '0px'}}>{this.props.degree}</h6>
                 </Cell>
             </Grid>
         )

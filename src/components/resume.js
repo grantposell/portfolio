@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Summary from './summary';
 import Education from './education';
+import ResumeProjects from './resumeprojects';
 import Experience from './experience';
+import OldExperience from './oldexperience';
 import Skills from './skills';
 import ResumeUpload from './resumeupload';
 
@@ -60,7 +62,21 @@ class Resume extends Component {
                             degree="•	A.A. in Foreign Language "
                         />
                         <hr style={{ borderTop: '3px solid #388544' }} />
-                        <h2>Projects</h2>
+                        <h2 style={{marginBottom: '0px'}}>Projects</h2>
+                        <ResumeProjects
+                            language="Languages"
+                            languages="HTML, CSS, and JavaScript, JSON"
+                            framework="Framework"
+                            frameworks="ReactJS & Angular 6"
+                            library="Library"
+                            libraries="Bootstrap, AJAX, and REST APIs"
+                            database="Database"
+                            databases="Firebase, MySQL, and MongoDB"
+                            serverside="Server-Side"
+                            serversides="Node.js & PHP"
+                            versioncontrol="Version Control"
+                            versioncontrols="GitHub, Team Foundation Server (TFS), GitLab"
+                        />
                         <hr style={{ borderTop: '3px solid #388544' }} />
                         <h2>Experience</h2>
                         <Experience
@@ -79,7 +95,7 @@ class Resume extends Component {
                             jobDescription1="•	Evaluating, acquiring, and actively seeking out candidates for clients of ours who deal in small to medium sized companies."
                             jobDescription2="• 	Communicates with clients to understand their needs and contributes to  revenue generating projects."
                         />
-                        <Experience
+                        <OldExperience
                             startMonth="January"
                             startYear={2017}
                             endMonth="May"
@@ -92,19 +108,19 @@ class Resume extends Component {
                         <hr style={{ borderTop: '3px solid #388544' }} />
                         <h2>Skills</h2>
                         <Skills
-                            skill="javascript"
+                            skill="Javascript"
                             progress={100}
                         />
                         <Skills
-                            skill="html/css"
+                            skill="HTML/CSS"
                             progress={80}
                         />
                         <Skills
-                            skill="nodejs"
+                            skill="NodeJS"
                             progress={50}
                         />
                         <Skills
-                            skill="React"
+                            skill="ReactJS"
                             progress={25}
                         />
                         <ResumeUpload />
