@@ -10,8 +10,8 @@ class Experience extends Component {
                 </Cell>
                 <Cell col={8}>
                     <h4 style={{ marginTop: '0px' }}>{this.props.jobName}</h4>
-                    <h6 style={{marginTop: "0px"}}>{this.props.jobPosition1}<br/>
-                    {this.props.jobPosition2}</h6>
+                    <h6 style={{marginTop: "0px"}}>{this.props.jobPosition1} ({this.props.jobPosition1StartMonthDate} {this.props.jobPosition1StartYearDate} - {this.props.jobPosition1End})<br/>
+                    {this.props.jobPosition2} ({this.props.jobPosition2StartMonthDate} {this.props.jobPosition2StartYearDate} - {this.props.jobPosition2End})</h6>
                     <p>{this.props.jobDescription1}<br/>
                         {this.props.jobDescription2}<br/></p>
                 </Cell>

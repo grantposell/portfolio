@@ -69,7 +69,13 @@ class Resume extends Component {
                             endYear="Present"
                             jobName="Insperity"
                             jobPosition1="Web Developer"
+                            jobPosition1StartMonthDate="January"
+                            jobPosition1StartYearDate={2019}
+                            jobPosition1End="Current"
                             jobPosition2="Sourcing Analyst"
+                            jobPosition2StartMonthDate="May"
+                            jobPosition2StartYearDate={2018}
+                            jobPosition2End="Current"
                             jobDescription1="•	Evaluating, acquiring, and actively seeking out candidates for clients of ours who deal in small to medium sized companies."
                             jobDescription2="• 	Communicates with clients to understand their needs and contributes to  revenue generating projects."
                         />
