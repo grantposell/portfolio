@@ -12,7 +12,7 @@ class Projects extends Component {
                 <div className="projects-grid">
                     {/* Project 1 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>React Project #1</CardTitle>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Jim's Yarn Barn</CardTitle>
                         <CardText>
                             Lorem Ipsum
                     </CardText>
@@ -26,7 +26,7 @@ class Projects extends Component {
                     </Card>
                     {/* Project 2 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>React Project #2</CardTitle>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>ChargeShare Network</CardTitle>
                         <CardText>
                             Lorem Ipsum
                     </CardText>
@@ -40,7 +40,7 @@ class Projects extends Component {
                     </Card>
                     {/* Project 3 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>React Project #3</CardTitle>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Personal Portfolio</CardTitle>
                         <CardText>
                             Lorem Ipsum
                     </CardText>
