@@ -12,9 +12,9 @@ class Projects extends Component {
                 <div className="projects-grid">
                     {/* Project 1 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Jim's Yarn Barn</CardTitle>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Take A Hike</CardTitle>
                         <CardText>
-                            Lorem Ipsum
+                            Hi
                     </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
@@ -59,9 +59,17 @@ class Projects extends Component {
                 <div className="projects-grid">
                     {/* Project 1 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Angular Project #1</CardTitle>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Bamazon Application</CardTitle>
                         <CardText>
-                            Lorem Ipsum
+                            This is a Node.js application that uses MySQL to create a command line Amazon-like environment.
+    
+                            Upon starting up the application, the user is prompted with what products they would be interested in purchasing.
+    
+                            The user choses the product by selecting the id by using arrow keys.
+    
+                            Next, the customer choses the quantity by inputing a numerical value. The application checks to see how much of each quantity exists and will reject a request if over the quantity.
+    
+                            Finally, the application displays the product purchased and the total cost. Then, it subtracts the amount from the quantity in the database as well.
                     </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
@@ -73,9 +81,19 @@ class Projects extends Component {
                     </Card>
                     {/* Project 2 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Angular Project #2</CardTitle>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Liri</CardTitle>
                         <CardText>
-                            Lorem Ipsum
+                        This is a LIRI Node.js application.
+
+                        LIRI stands for Language Interpretation and Recognition Interface.
+
+                        This application allows users to search for information via server-side without an User Interface using native JavaScript over Node.js.
+
+                        In this particular application, you can search to see what tweets have been tweeted by an account and in particular it is the Naught X charger network. Simply type "node liri my-tweets" and it will pull the tweets that have been written on the account.
+
+                        Next, you can search for information about songs through "node liri spotify-this-song insert song here" and it will even pull information from the Spotify npm module about a song.
+
+                        Finally, you can pull information about movies by typing "node liri movie-this insertmovie here" as well to display movie information.
                     </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
@@ -153,9 +171,9 @@ class Projects extends Component {
                 <div className="projects-grid">
                     {/* Project 1 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Mongo Project #1</CardTitle>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Take A Hike</CardTitle>
                         <CardText>
-                            Lorem Ipsum
+                        This a hiking application that includes the weather for the given location that a consumer would be looking to go to. This is a 4 person project in the UT Houston Bootcamp. This application includes HTML5, CSS3, Bootstrap, JavaScript, jQuery, AJAX calls, Hiking APIs, Google Firebase, and Google Maps API. This application should be able to help people better plan for hiking trips in places they havent ever been to before.
                     </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
@@ -167,7 +185,7 @@ class Projects extends Component {
                     </Card>
                     {/* Project 2 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Mongo Project #2</CardTitle>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>FareTrade</CardTitle>
                         <CardText>
                             Lorem Ipsum
                     </CardText>
@@ -202,10 +220,10 @@ class Projects extends Component {
         return (
             <div className="category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
+                    <Tab>Front End</Tab>
+                    <Tab>Node</Tab>
                     <Tab>React</Tab>
-                    <Tab>Angular</Tab>
-                    <Tab>VueJS</Tab>
-                    <Tab>MongoDB</Tab>
+                    <Tab>Full Stack</Tab>
                 </Tabs>
 
 
