@@ -12,13 +12,17 @@ class Projects extends Component {
                 <div className="projects-grid">
                     {/* Project 1 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Take A Hike</CardTitle>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Crystal Collector Game</CardTitle>
                         <CardText>
-                            Hi
+                            This is a Crystal Collector game The game was created with HTML5, CSS3, bootstrap, and JavaScript. Click on the Crystals to get to the randomized value to win.
                     </CardText>
                         <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>LiveDemo</Button>
+                            <a href="https://github.com/grantposell/week-4-game">
+                                <Button colored>GitHub</Button>
+                            </a>
+                            <a href="https://grantposell.github.io/week-4-game/">
+                                <Button colored>LiveDemo</Button>
+                            </a>
                         </CardActions>
                         <CardMenu style={{ color: '#fff' }}>
                             <IconButton name="share" />
@@ -26,13 +30,17 @@ class Projects extends Component {
                     </Card>
                     {/* Project 2 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>ChargeShare Network</CardTitle>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Sports Gif Generator</CardTitle>
                         <CardText>
-                            Lorem Ipsum
+                            This is a sports gif generator. This uses AJAX calls and RESTful APIs. Input a sport and click on it to see some of the best gifs that are trending.
                     </CardText>
                         <CardActions border>
-                            <Button colored>GitHub</Button>
+                            <a href="https://github.com/grantposell/sports-gif-generator">
+                                <Button colored>GitHub</Button>
+                            </a>
+                            <a href="https://grantposell.github.io/sports-gif-generator">
                             <Button colored>LiveDemo</Button>
+                            </a>
                         </CardActions>
                         <CardMenu style={{ color: '#fff' }}>
                             <IconButton name="share" />
@@ -62,13 +70,13 @@ class Projects extends Component {
                         <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Bamazon Application</CardTitle>
                         <CardText>
                             This is a Node.js application that uses MySQL to create a command line Amazon-like environment.
-    
+
                             Upon starting up the application, the user is prompted with what products they would be interested in purchasing.
-    
+
                             The user choses the product by selecting the id by using arrow keys.
-    
+
                             Next, the customer choses the quantity by inputing a numerical value. The application checks to see how much of each quantity exists and will reject a request if over the quantity.
-    
+
                             Finally, the application displays the product purchased and the total cost. Then, it subtracts the amount from the quantity in the database as well.
                     </CardText>
                         <CardActions border>
@@ -83,17 +91,17 @@ class Projects extends Component {
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Liri</CardTitle>
                         <CardText>
-                        This is a LIRI Node.js application.
-
-                        LIRI stands for Language Interpretation and Recognition Interface.
-
-                        This application allows users to search for information via server-side without an User Interface using native JavaScript over Node.js.
-
-                        In this particular application, you can search to see what tweets have been tweeted by an account and in particular it is the Naught X charger network. Simply type "node liri my-tweets" and it will pull the tweets that have been written on the account.
-
-                        Next, you can search for information about songs through "node liri spotify-this-song insert song here" and it will even pull information from the Spotify npm module about a song.
-
-                        Finally, you can pull information about movies by typing "node liri movie-this insertmovie here" as well to display movie information.
+                            This is a LIRI Node.js application.
+    
+                            LIRI stands for Language Interpretation and Recognition Interface.
+    
+                            This application allows users to search for information via server-side without an User Interface using native JavaScript over Node.js.
+    
+                            In this particular application, you can search to see what tweets have been tweeted by an account and in particular it is the Naught X charger network. Simply type "node liri my-tweets" and it will pull the tweets that have been written on the account.
+    
+                            Next, you can search for information about songs through "node liri spotify-this-song insert song here" and it will even pull information from the Spotify npm module about a song.
+    
+                            Finally, you can pull information about movies by typing "node liri movie-this insertmovie here" as well to display movie information.
                     </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
@@ -173,7 +181,7 @@ class Projects extends Component {
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Take A Hike</CardTitle>
                         <CardText>
-                        This a hiking application that includes the weather for the given location that a consumer would be looking to go to. This is a 4 person project in the UT Houston Bootcamp. This application includes HTML5, CSS3, Bootstrap, JavaScript, jQuery, AJAX calls, Hiking APIs, Google Firebase, and Google Maps API. This application should be able to help people better plan for hiking trips in places they havent ever been to before.
+                            This a hiking application that includes the weather for the given location that a consumer would be looking to go to. This is a 4 person project in the UT Houston Bootcamp. This application includes HTML5, CSS3, Bootstrap, JavaScript, jQuery, AJAX calls, Hiking APIs, Google Firebase, and Google Maps API. This application should be able to help people better plan for hiking trips in places they havent ever been to before.
                     </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
