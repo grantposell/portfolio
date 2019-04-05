@@ -48,13 +48,17 @@ class Projects extends Component {
                     </Card>
                     {/* Project 3 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Personal Portfolio</CardTitle>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Hangman: Cuisine Edition</CardTitle>
                         <CardText>
-                            Lorem Ipsum
+                        Play a great game of Hangman:Cuisine Edition. Guess the right letters to know what is spelled. The words are common foods found in cultures all around the world.
                     </CardText>
                         <CardActions border>
+                            <a href="https://github.com/grantposell/Hangman-Game">
                             <Button colored>GitHub</Button>
+                            </a>
+                            <a href="https://grantposell.github.io/Hangman-Game/">
                             <Button colored>LiveDemo</Button>
+                            </a>
                         </CardActions>
                         <CardMenu style={{ color: '#fff' }}>
                             <IconButton name="share" />
@@ -80,8 +84,9 @@ class Projects extends Component {
                             Finally, the application displays the product purchased and the total cost. Then, it subtracts the amount from the quantity in the database as well.
                     </CardText>
                         <CardActions border>
+                            <a href="https://github.com/grantposell/bamazon">
                             <Button colored>GitHub</Button>
-                            <Button colored>LiveDemo</Button>
+                            </a>
                         </CardActions>
                         <CardMenu style={{ color: '#fff' }}>
                             <IconButton name="share" />
@@ -104,22 +109,9 @@ class Projects extends Component {
                             Finally, you can pull information about movies by typing "node liri movie-this insertmovie here" as well to display movie information.
                     </CardText>
                         <CardActions border>
+                            <a href="https://github.com/grantposell/liri-node-app">
                             <Button colored>GitHub</Button>
-                            <Button colored>LiveDemo</Button>
-                        </CardActions>
-                        <CardMenu style={{ color: '#fff' }}>
-                            <IconButton name="share" />
-                        </CardMenu>
-                    </Card>
-                    {/* Project 3 */}
-                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Angular Project #3</CardTitle>
-                        <CardText>
-                            Lorem Ipsum
-                    </CardText>
-                        <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>LiveDemo</Button>
+                            </a>
                         </CardActions>
                         <CardMenu style={{ color: '#fff' }}>
                             <IconButton name="share" />
