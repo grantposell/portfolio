@@ -125,7 +125,7 @@ class Projects extends Component {
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Food Memory Game</CardTitle>
                         <CardText>
-                            This is a Food Memory Game where you chose the food that you believe would be the next food to be chosen. This application is written in JavaScript in a React Framework. This application is majorly powered by randomized values using Math.floor. 
+                            This is a Food Memory Game where you choose the food that you believe would be the next food to be chosen. This application is written in JavaScript in a React Framework. This application is majorly powered by randomized values using Math.floor. 
                     </CardText>
                         <CardActions border>
                             <a href="https://github.com/grantposell/foodmemory">
@@ -167,6 +167,8 @@ class Projects extends Component {
                         <CardActions border>
                             <a href="https://github.com/rmesser87/FareTrade">
                             <Button colored>GitHub</Button></a>
+                            <a href="https://evening-harbor-15716.herokuapp.com/">
+                            <Button colored>LiveDemo</Button></a>
                         </CardActions>
                         <CardMenu style={{ color: '#fff' }}>
                             <IconButton name="share" />
