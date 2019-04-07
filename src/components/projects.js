@@ -136,34 +136,6 @@ class Projects extends Component {
                             <IconButton name="share" />
                         </CardMenu>
                     </Card>
-                    {/* Project 2 */}
-                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Vue Project #2</CardTitle>
-                        <CardText>
-                            Lorem Ipsum
-                    </CardText>
-                        <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>LiveDemo</Button>
-                        </CardActions>
-                        <CardMenu style={{ color: '#fff' }}>
-                            <IconButton name="share" />
-                        </CardMenu>
-                    </Card>
-                    {/* Project 3 */}
-                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Vue Project #3</CardTitle>
-                        <CardText>
-                            Lorem Ipsum
-                    </CardText>
-                        <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>LiveDemo</Button>
-                        </CardActions>
-                        <CardMenu style={{ color: '#fff' }}>
-                            <IconButton name="share" />
-                        </CardMenu>
-                    </Card>
                 </div>
             )
         } else if (this.state.activeTab === 3) {
@@ -190,6 +162,25 @@ class Projects extends Component {
                             Lorem Ipsum
                     </CardText>
                         <CardActions border>
+                            <a href="https://github.com/rmesser87/FareTrade">
+                            <Button colored>GitHub</Button></a>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+                </div>
+            )
+        }else if (this.state.activeTab === 4) {
+            return (
+                <div className="projects-grid">
+                    {/* Project 1 */}
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>ChargeShare</CardTitle>
+                        <CardText>
+                            This a hiking application that includes the weather for the given location that a consumer would be looking to go to. This is a 4 person project in the UT Houston Bootcamp. This application includes HTML5, CSS3, Bootstrap, JavaScript, jQuery, AJAX calls, Hiking APIs, Google Firebase, and Google Maps API. This application should be able to help people better plan for hiking trips in places they havent ever been to before.
+                    </CardText>
+                        <CardActions border>
                             <Button colored>GitHub</Button>
                             <Button colored>LiveDemo</Button>
                         </CardActions>
@@ -197,9 +188,9 @@ class Projects extends Component {
                             <IconButton name="share" />
                         </CardMenu>
                     </Card>
-                    {/* Project 3 */}
+                    {/* Project 2 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Mongo Project #3</CardTitle>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>SPP&M</CardTitle>
                         <CardText>
                             Lorem Ipsum
                     </CardText>
@@ -224,6 +215,7 @@ class Projects extends Component {
                     <Tab>Node</Tab>
                     <Tab>React</Tab>
                     <Tab>Full Stack</Tab>
+                    <Tab>In Progress</Tab>
                 </Tabs>
 
 
