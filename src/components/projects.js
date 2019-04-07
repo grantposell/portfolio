@@ -109,9 +109,23 @@ class Projects extends Component {
                 <div className="projects-grid">
                     {/* Project 1 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Stalks</CardTitle>
+                        <CardText>
+                        This is a Stock Market Trading game. We developed the social aspect of our application by coding the backend working with JavaScript, Node.js, MySQL, and MongoDB. The features that we created were the ability to find, select, add friends, and talk more over a platform forum.
+                    </CardText>
+                        <CardActions border>
+                            <a href="https://github.com/lmcneel/stalks">
+                            <Button colored>GitHub</Button></a>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+                    {/* Project 2 */}
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Food Memory Game</CardTitle>
                         <CardText>
-                            This is a Food Memory Game where you chose the food that you believe would be the next food to be chosen. This application is written in JavaScript in a React Framework. 
+                            This is a Food Memory Game where you chose the food that you believe would be the next food to be chosen. This application is written in JavaScript in a React Framework. This application is majorly powered by randomized values using Math.floor. 
                     </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>

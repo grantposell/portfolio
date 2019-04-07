@@ -43,7 +43,7 @@ background: linear-gradient(to right, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, F
 .social-links{
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 20%;
   margin: auto;
 }
 .social-links i{
@@ -91,4 +91,14 @@ background: linear-gradient(to right, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, F
   background: #737673;
   color: white;
   padding: 2em;
+}
+@media only screen and (max-width: 600px) {
+  .projects-grid{
+    display: inline;
+    margin: auto;
+  }
+  .category-tabs{
+    margin-top: 40px;
+  }
+
 }

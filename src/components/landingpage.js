@@ -28,10 +28,6 @@ class LandingPage extends Component {
                     <a href="https://github.com/grantposell" rel= "noopener noreferrer" target="_blank">
                     <i className="fa fa-github-square"  aria-hidden="true" />
                     </a>
-                    {/* Stack Overflow */}
-                    <a href="https://stackoverflow.com/users/6174079/grant-thomas-posell" rel= "noopener noreferrer" target="_blank">
-                    <i className="fa fa-stack-overflow"  aria-hidden="true" />
-                    </a>
                     </div>
                     </div>
                     </Cell>
