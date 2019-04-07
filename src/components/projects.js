@@ -50,7 +50,7 @@ class Projects extends Component {
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Hangman: Cuisine Edition</CardTitle>
                         <CardText>
-                        Play a great game of Hangman:Cuisine Edition. Guess the right letters to know what is spelled. The words are common foods found in cultures all around the world. 
+                        Play a great game of Hangman: Cuisine Edition. Guess the right letters to know what is spelled. The words are common foods found in cultures all around the world. 
                     </CardText>
                         <CardActions border>
                             <a href="https://github.com/grantposell/Hangman-Game">
@@ -111,7 +111,7 @@ class Projects extends Component {
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Food Memory Game</CardTitle>
                         <CardText>
-                            Lorem Ipsum
+                            This is a Food Memory Game where you chose the food that you believe would be the next food to be chosen. This application is written in JavaScript in a React Framework. 
                     </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
@@ -130,11 +130,13 @@ class Projects extends Component {
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Take A Hike</CardTitle>
                         <CardText>
-                            This a hiking application that includes the weather for the given location that a consumer would be looking to go to. This is a 4 person project in the UT Houston Bootcamp. This application includes HTML5, CSS3, Bootstrap, JavaScript, jQuery, AJAX calls, Hiking APIs, Google Firebase, and Google Maps API. This application should be able to help people better plan for hiking trips in places they havent ever been to before.
+                            This a hiking application that includes the weather for the given location that a consumer would be looking to go to. Our team included 4 members. This application includes HTML5, CSS3, Bootstrap, JavaScript, jQuery, AJAX calls, Hiking APIs, Google Firebase, and Google Maps API. 
                     </CardText>
                         <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>LiveDemo</Button>
+                            <a href="https://github.com/grantposell/waag">
+                            <Button colored>GitHub</Button></a>
+                            <a href="https://grantposell.github.io/waag/">
+                            <Button colored>LiveDemo</Button></a>
                         </CardActions>
                         <CardMenu style={{ color: '#fff' }}>
                             <IconButton name="share" />
@@ -144,7 +146,7 @@ class Projects extends Component {
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>FareTrade</CardTitle>
                         <CardText>
-                            Lorem Ipsum
+                            This application was built by me and two others. This application allows for locals to buy, sell, and trade local produce. This application uses MVC, Express, Passport, MySQL, JavaScript, CSS3, and HTML5. The biggest difficulty was dictating buyers and sellers. 
                     </CardText>
                         <CardActions border>
                             <a href="https://github.com/rmesser87/FareTrade">
@@ -177,7 +179,7 @@ class Projects extends Component {
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>SPP&M</CardTitle>
                         <CardText>
-                            Building a website for a client who is starting a Project Management Consulting Buisiness. This website is mostly made using React and JavaScript. 
+                            Building a website for a client who is starting a Project Management Consulting Buisiness. This website is mostly made using React, JavaScript, HTML5, and CSS3. 
                     </CardText>
                         <CardActions border>
                             <a href="https://github.com/grantposell/sppm">
@@ -197,7 +199,7 @@ class Projects extends Component {
             <div className="category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
                     <Tab>Front End</Tab>
-                    <Tab>Node</Tab>
+                    <Tab>NodeJS</Tab>
                     <Tab>React</Tab>
                     <Tab>Full Stack</Tab>
                     <Tab>In Progress</Tab>
