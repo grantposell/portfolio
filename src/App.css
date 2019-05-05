@@ -93,9 +93,23 @@ background: linear-gradient(to right, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, F
   padding: 2em;
 }
 @media only screen and (max-width: 600px) {
+  .banner-text h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+  }
+  .avatar-img{
+    height: 200px;
+    padding-top: 5em;
+  }
   .projects-grid{
     display: inline;
     margin: auto;
+  }
+  .social-links i{
+    color:white;
+    font-size: 5em;
+    padding: 8px;
   }
   .category-tabs{
     margin-top: 40px;
