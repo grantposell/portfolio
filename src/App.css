@@ -124,6 +124,14 @@ background: linear-gradient(to right, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, F
   .projects-grid{
     display: inline;
     margin: auto;
+    padding: auto;
+  }
+  .category-tabs{
+    margin-top: 50px;
+    width: 100%;
+  }
+  .project-card{
+    margin-bottom: 20px;
   }
 }
 @media all and (min-width: 600px) {
