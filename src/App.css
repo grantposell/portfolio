@@ -146,8 +146,28 @@ background: linear-gradient(to right, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, F
     color: white;
     font-size: 20px;
     padding: 0em;
+    margin-top: 10px;
+  }
+  .social-links i{
+    color:white;
+    font-size: 2em;
+    padding: 8px;
+  }
+  .projects-grid{
+    display: inline;
+  }
+  .category-tabs{
+    margin-top: 50px;
+    width: 100%;
+  }
+  .project-card{
+    margin-bottom: 20px;
   }
 }
+@media all and (max-width: 425px) and (min-width: 376px) {
+
+}
+
 @media all and (min-width: 600px) {
   .banner-text h1{
     font-size: 50px;
