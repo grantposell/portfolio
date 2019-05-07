@@ -165,7 +165,36 @@ background: linear-gradient(to right, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, F
   }
 }
 @media all and (max-width: 425px) and (min-width: 376px) {
-
+  .avatar-img{
+    margin-top: 20px;
+    height: 175px;
+  }
+  .banner-text h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+  }
+  .banner-text p{
+    color: white;
+    font-size: 20px;
+    padding: 0em;
+    margin-top: 10px;
+  }
+  .social-links i{
+    color:white;
+    font-size: 2em;
+    padding: 8px;
+  }
+  .projects-grid{
+    display: inline;
+  }
+  .category-tabs{
+    margin-top: 50px;
+    width: 100%;
+  }
+  .project-card{
+    margin-bottom: 20px;
+  }
 }
 
 @media all and (min-width: 600px) {
