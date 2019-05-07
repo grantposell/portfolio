@@ -121,6 +121,10 @@ background: linear-gradient(to right, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, F
     font-size: 20px;
     padding: 0em;
   }
+  .projects-grid{
+    display: inline;
+    margin: auto;
+  }
 }
 @media all and (min-width: 600px) {
   .banner-text h1{
