@@ -123,8 +123,6 @@ background: linear-gradient(to right, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, F
   }
   .projects-grid{
     display: inline;
-    margin: auto;
-    padding: auto;
   }
   .category-tabs{
     margin-top: 50px;
@@ -155,11 +153,6 @@ background: linear-gradient(to right, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, F
     width: 95%;
     margin: auto;
     border-radius: 10px;
-  }
-  .social-links i{
-    color:white;
-    font-size: 5em;
-    padding: 8px;
   }
   .social-links i{
     color:white;
