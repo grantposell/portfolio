@@ -157,40 +157,40 @@ class Projects extends Component {
             return (
                 <div className="projects-grid">
                     <div className="project-card">
-                    {/* Project 1 */}
-                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Take A Hike</CardTitle>
-                        <CardText>
-                            This a hiking application that includes the weather for the given location that a consumer would be looking to go to. Our team included 4 members. This application includes HTML5, CSS3, Bootstrap, JavaScript, jQuery, AJAX calls, Hiking APIs, Google Firebase, and Google Maps API.
+                        {/* Project 1 */}
+                        <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Take A Hike</CardTitle>
+                            <CardText>
+                                This a hiking application that includes the weather for the given location that a consumer would be looking to go to. Our team included 4 members. This application includes HTML5, CSS3, Bootstrap, JavaScript, jQuery, AJAX calls, Hiking APIs, Google Firebase, and Google Maps API.
                     </CardText>
-                        <CardActions border>
-                            <a href="https://github.com/grantposell/waag">
-                                <Button colored>GitHub</Button></a>
-                            <a href="https://grantposell.github.io/waag/">
-                                <Button colored>LiveDemo</Button></a>
-                        </CardActions>
-                        <CardMenu style={{ color: '#fff' }}>
-                            <IconButton name="share" />
-                        </CardMenu>
-                    </Card>
+                            <CardActions border>
+                                <a href="https://github.com/grantposell/waag">
+                                    <Button colored>GitHub</Button></a>
+                                <a href="https://grantposell.github.io/waag/">
+                                    <Button colored>LiveDemo</Button></a>
+                            </CardActions>
+                            <CardMenu style={{ color: '#fff' }}>
+                                <IconButton name="share" />
+                            </CardMenu>
+                        </Card>
                     </div>
                     <div className="project-card">
-                    {/* Project 2 */}
-                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>FareTrade</CardTitle>
-                        <CardText>
-                            This application was built by me and two others. This application allows for locals to buy, sell, and trade local produce. This application uses MVC, Express, Passport, MySQL, JavaScript, CSS3, and HTML5. The biggest difficulty was dictating buyers and sellers.
+                        {/* Project 2 */}
+                        <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>FareTrade</CardTitle>
+                            <CardText>
+                                This application was built by me and two others. This application allows for locals to buy, sell, and trade local produce. This application uses MVC, Express, Passport, MySQL, JavaScript, CSS3, and HTML5. The biggest difficulty was dictating buyers and sellers.
                     </CardText>
-                        <CardActions border>
-                            <a href="https://github.com/rmesser87/FareTrade">
-                                <Button colored>GitHub</Button></a>
-                            <a href="https://evening-harbor-15716.herokuapp.com/">
-                                <Button colored>LiveDemo</Button></a>
-                        </CardActions>
-                        <CardMenu style={{ color: '#fff' }}>
-                            <IconButton name="share" />
-                        </CardMenu>
-                    </Card>
+                            <CardActions border>
+                                <a href="https://github.com/rmesser87/FareTrade">
+                                    <Button colored>GitHub</Button></a>
+                                <a href="https://evening-harbor-15716.herokuapp.com/">
+                                    <Button colored>LiveDemo</Button></a>
+                            </CardActions>
+                            <CardMenu style={{ color: '#fff' }}>
+                                <IconButton name="share" />
+                            </CardMenu>
+                        </Card>
                     </div>
                 </div>
             )
@@ -198,36 +198,54 @@ class Projects extends Component {
             return (
                 <div className="projects-grid">
                     <div className="project-card">
-                    {/* Project 1 */}
-                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>ChargeShare</CardTitle>
-                        <CardText>
-                            Building a web application for an Electric Vehicle Charging Station Network. This application is currently being built with HTML, CSS, JavaScript, and React; databases to be added to bring user profiles.
+                        {/* Project 1 */}
+                        <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>ChargeShare</CardTitle>
+                            <CardText>
+                                Building a web application for an Electric Vehicle Charging Station Network. This application is currently being built with HTML, CSS, JavaScript, and React; databases to be added to bring user profiles.
                     </CardText>
-                        <CardActions border>
-                            <a href="https://github.com/grantposell/chargeshare">
-                                <Button colored>GitHub</Button></a>
-                        </CardActions>
-                        <CardMenu style={{ color: '#fff' }}>
-                            <IconButton name="share" />
-                        </CardMenu>
-                    </Card>
+                            <CardActions border>
+                                <a href="https://github.com/grantposell/chargeshare">
+                                    <Button colored>GitHub</Button></a>
+                                <a href="https://www.chargesharenetwork.com/">
+                                    <Button colored>LiveDemo</Button></a>
+                            </CardActions>
+                            <CardMenu style={{ color: '#fff' }}>
+                                <IconButton name="share" />
+                            </CardMenu>
+                        </Card>
                     </div>
                     <div className="project-card">
-                    {/* Project 2 */}
-                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>SPP&M</CardTitle>
-                        <CardText>
-                            Building a website for a client who is starting a Project Management Consulting Buisiness. This website is mostly made using React, JavaScript, HTML5, and CSS3.
+                        {/* Project 2 */}
+                        <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Fēnix Power</CardTitle>
+                            <CardText>
+                                Building a website for a client who is starting a Project Management Consulting Buisiness. This website is mostly made using React, JavaScript, HTML5, and CSS3.
                     </CardText>
-                        <CardActions border>
-                            <a href="https://github.com/grantposell/sppm">
-                                <Button colored>GitHub</Button></a>
-                        </CardActions>
-                        <CardMenu style={{ color: '#fff' }}>
-                            <IconButton name="share" />
-                        </CardMenu>
-                    </Card>
+                            <CardActions border>
+                                <a href="https://github.com/grantposell/sppm">
+                                    <Button colored>GitHub</Button></a>
+                            </CardActions>
+                            <CardMenu style={{ color: '#fff' }}>
+                                <IconButton name="share" />
+                            </CardMenu>
+                        </Card>
+                    </div>
+                    <div className="project-card">
+                        {/* Project 3 */}
+                        <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>SPP&M</CardTitle>
+                            <CardText>
+                                Building a website for a client who is starting a Project Management Consulting Buisiness. This website is mostly made using React, JavaScript, HTML5, and CSS3.
+                    </CardText>
+                            <CardActions border>
+                                <a href="https://github.com/grantposell/sppm">
+                                    <Button colored>GitHub</Button></a>
+                            </CardActions>
+                            <CardMenu style={{ color: '#fff' }}>
+                                <IconButton name="share" />
+                            </CardMenu>
+                        </Card>
                     </div>
                 </div>
             )
@@ -241,11 +259,9 @@ class Projects extends Component {
                     <Tab>UI</Tab>
                     <Tab>Node</Tab>
                     <Tab>React</Tab>
-                    <Tab>Full Stack</Tab>
+                    <Tab>FS</Tab>
                     <Tab>In Progress</Tab>
                 </Tabs>
-
-
                 <Grid>
                     <Cell col={12}>
                         <div className="content">{this.toggleCategorgies()}</div>

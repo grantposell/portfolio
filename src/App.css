@@ -146,7 +146,6 @@ background: linear-gradient(to right, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, F
   .social-links{
     justify-content: center;
   }
-  
 }
 @media all and (max-width: 375px) and (min-width: 325px) {
   .avatar-img{
