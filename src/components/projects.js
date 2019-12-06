@@ -241,7 +241,7 @@ class Projects extends Component {
                     <Tab>UI</Tab>
                     <Tab>Node</Tab>
                     <Tab>React</Tab>
-                    <Tab>FS</Tab>
+                    <Tab>Full Stack</Tab>
                     <Tab>In Progress</Tab>
                 </Tabs>
 

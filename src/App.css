@@ -55,6 +55,9 @@ background: linear-gradient(to right, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, F
 .projects-grid{
   display: flex;
 }
+.mdl-tabs__tab{
+  width: 100px;
+}
 .contact-body{
   margin:auto;
   position: fixed;
@@ -113,8 +116,9 @@ background: linear-gradient(to right, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, F
   .banner-text {
     background-color: black;
     opacity: .8;
-    width: 95%;
-    margin: auto;
+    width: 275px;
+    justify-content: center;
+    /* margin: auto; */
     border-radius: 10px;
   }
   .banner-text p{
@@ -124,14 +128,25 @@ background: linear-gradient(to right, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, F
   }
   .projects-grid{
     display: inline;
+    justify-content: space-around;
   }
   .category-tabs{
     margin-top: 50px;
     width: 100%;
   }
+  .mdl-tabs__tab{
+    text-align: center;
+    width: 100px;
+  }
   .project-card{
     margin-bottom: 20px;
+    width: 30px;
+    align-content: center;
   }
+  .social-links{
+    justify-content: center;
+  }
+  
 }
 @media all and (max-width: 375px) and (min-width: 325px) {
   .avatar-img{
@@ -230,5 +245,11 @@ background: linear-gradient(to right, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, F
   }
   .project-card{
     margin-bottom: 20px;
+  }
+}
+@media all and (min-width: 769px) {
+  .projects-grid{
+    margin-top: 50px;
+    justify-content: space-evenly;
   }
 }
