@@ -202,11 +202,9 @@ class Projects extends Component {
                         <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
                             <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>ChargeShare</CardTitle>
                             <CardText>
-                                Building a web application for an Electric Vehicle Charging Station Network. This application is currently being built with HTML, CSS, JavaScript, and React; databases to be added to bring user profiles.
+                                Building a web application for my Electric Vehicle Charging Station Network Startup. This application is currently being built with HTML, CSS, JavaScript, and WordPress; databases to be added to bring user profiles.
                     </CardText>
                             <CardActions border>
-                                <a href="https://github.com/grantposell/chargeshare">
-                                    <Button colored>GitHub</Button></a>
                                 <a href="https://www.chargesharenetwork.com/">
                                     <Button colored>LiveDemo</Button></a>
                             </CardActions>
@@ -220,27 +218,11 @@ class Projects extends Component {
                         <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
                             <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>Fēnix Power</CardTitle>
                             <CardText>
-                                Building a website for a client who is starting a Project Management Consulting Buisiness. This website is mostly made using React, JavaScript, HTML5, and CSS3.
+                            Building a web application for Fēnix Power Startup. This application is currently being built with HTML, CSS, and WordPress. Overhauled the website in a weekend from original state. 
                     </CardText>
                             <CardActions border>
-                                <a href="https://github.com/grantposell/sppm">
-                                    <Button colored>GitHub</Button></a>
-                            </CardActions>
-                            <CardMenu style={{ color: '#fff' }}>
-                                <IconButton name="share" />
-                            </CardMenu>
-                        </Card>
-                    </div>
-                    <div className="project-card">
-                        {/* Project 3 */}
-                        <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://facebook.github.io/create-react-app/img/logo-og.png) center / cover' }}>SPP&M</CardTitle>
-                            <CardText>
-                                Building a website for a client who is starting a Project Management Consulting Buisiness. This website is mostly made using React, JavaScript, HTML5, and CSS3.
-                    </CardText>
-                            <CardActions border>
-                                <a href="https://github.com/grantposell/sppm">
-                                    <Button colored>GitHub</Button></a>
+                                <a href="https://fenix.systems/">
+                                    <Button colored>LiveDemo</Button></a>
                             </CardActions>
                             <CardMenu style={{ color: '#fff' }}>
                                 <IconButton name="share" />
