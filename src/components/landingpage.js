@@ -16,11 +16,9 @@ class LandingPage extends Component {
                             className="avatar-img" />
 
                         <div className="banner-text">
-                            <Typed strings={['Product Developer','Full Stack Web Developer','Product Management']} typeSpeed={40} backSpeed={50} attr="placeholder" loop >
-                            <input type="text"/>
-                            </Typed>
-
-                            <h1>Full Stack Web Developer</h1>
+                            <h1><Typed strings={['Product Developer','Full Stack Web Developer','Product Management']} typeSpeed={100} backSpeed={100} smartBackspace = {true} loop = {true} >
+                            {/* <input type="text"/> */}
+                            </Typed></h1>
 
                             <hr />
 
