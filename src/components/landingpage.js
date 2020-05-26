@@ -14,14 +14,10 @@ class LandingPage extends Component {
                             src={require('../images/profile.jpeg')}
                             alt="avatar"
                             className="avatar-img" />
-
                         <div className="banner-text">
-                            <h1><Typed strings={['Product Developer','Full Stack Web Developer','Product Management']} typeSpeed={100} backSpeed={100} smartBackspace = {true} loop = {true} >
-                            {/* <input type="text"/> */}
+                            <h1><Typed strings={['Product Developer','Full Stack Web Developer','Product Management']} typeSpeed={100} backSpeed={100} smartBackspace = {true} loop = {true}>
                             </Typed></h1>
-
                             <hr />
-
                             <p>HTML/CSS | JavaScript | React | NodeJS | MongoDB | MySQL | Firebase</p>
                             <div className="social-links">
                                 {/* LinkedIn */}
