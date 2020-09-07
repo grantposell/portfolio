@@ -13,23 +13,7 @@ class Resume extends Component {
         return (
             <div>
                 <Grid>
-                    <Cell col={4}>
-                        <h2 style={{ color: 'black' }}>My Exerience</h2>
-                        <hr style={{ borderTop: '3px solid #003973', width: '100%' }} />
-                        <p style={{textAlign: 'justify', textIndent: '20px',}}>I am a Recruiter turned Full Stack Web Developer. My passion for coding and building new applications derives from my curiosity of the world. Working on projects in teams and constantly learning from mistakes brings me to be a better coder and person. I am a fast learner and eager to work on projects in rapid environments. I look forward to working with you in the future.</p>
-                        <hr style={{ borderTop: '3px solid #003973', width: '100%' }} />
-                        <h5>Phone</h5>
-                        <p>(832) 530-8222</p>
-                        <h5>Email</h5>
-                        <p>grantposell@gmail.com</p>
-                        <h5>Github</h5>
-                        <p>https://www.github.com/grantposell
-                        </p>
-                        <h5>Address</h5>
-                        <p>2827 Dunvale Road<br/>Apartment 6415<br />Houston, TX 77063 </p>
-                        <hr style={{ borderTop: '3px solid #003973', width: '100%' }} />
-                    </Cell>
-                    <Cell className="resume-right-col" col={8}>
+                    <Cell className="resume-right-col" col={12}>
                         <ResumeUpload />
                         <h2>Summary</h2>
                         <Summary />
