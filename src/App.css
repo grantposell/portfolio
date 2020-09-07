@@ -39,7 +39,6 @@ background: linear-gradient(to right, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, F
 .banner-text p{
   color: white;
   font-size: 20px;
-  padding: 1em;
 }
 .social-links{
   display: flex;
