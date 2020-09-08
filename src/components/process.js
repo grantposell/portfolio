@@ -14,7 +14,7 @@ class Process extends Component {
                     </p>
                 </Cell>
                 <Cell col={4}></Cell>
-                <Cell col={8}><h3></h3></Cell>
+                <Cell col={8}></Cell>
                 <Cell col={4}></Cell>
             </Grid>
         )
