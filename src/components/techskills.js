@@ -7,6 +7,8 @@ class TechSkills extends Component {
             <Grid>
                 <Cell col={4}>
                 <p>
+                    {this.props.projecttool}:<br/> 
+                    {this.props.prototype}:<br/> 
                     {this.props.language}:<br/> 
                     {this.props.framework}:<br/>
                     {this.props.library}:<br/>
@@ -17,6 +19,8 @@ class TechSkills extends Component {
                 </Cell>
                 <Cell col={8}>
                 <p>
+                    {this.props.projecttools}<br/> 
+                    {this.props.prototyping}<br/> 
                     {this.props.languages}<br/> 
                     {this.props.frameworks}<br/>
                     {this.props.libraries}<br/>

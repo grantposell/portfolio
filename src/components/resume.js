@@ -46,6 +46,10 @@ class Resume extends Component {
                         <hr style={{ borderTop: '3px solid #003973' }} />
                         <h2 style={{ marginBottom: '0px' }}>Technical Skills</h2>
                         <TechSkills
+                            projecttool="Project Tools"
+                            projecttools="Asana, JIRA, Monday.com, and Slite"
+                            prototype="Prototyping Tools"
+                            prototyping="Figma, Balsamiq"
                             language="Languages"
                             languages="HTML, CSS, and JavaScript, JSON"
                             framework="Framework"
