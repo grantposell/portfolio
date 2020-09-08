@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import Summary from './summary';
 import Education from './education';
 import TechSkills from './techskills';
 import ResumeProjects from './resumeprojects';
