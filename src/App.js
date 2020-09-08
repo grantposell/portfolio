@@ -12,7 +12,7 @@ class App extends Component {
         <Layout>
           <Header className="header-color" title={<Link style={{textDecoration:'none', color: 'white'}} to="/">My Portfolio</Link>} scroll>
             <Navigation>
-              <Link to="/process">Process</Link>
+              {/* <Link to="/process">Process</Link> */}
               <Link to="/projects">Projects</Link>
               <Link to="/resume">Resume</Link>
               <Link to="/contact">Contact</Link>
@@ -20,7 +20,7 @@ class App extends Component {
           </Header>
           <Drawer title={<Link style={{textDecoration:'none', color: 'black'}} to="/">My Portfolio</Link>}>
             <Navigation>
-              <Link to="/process">Process</Link>
+              {/* <Link to="/process">Process</Link> */}
               <Link to="/projects">Projects</Link>
               <Link to="/resume">Resume</Link>
               <Link to="/contact">Contact</Link>
