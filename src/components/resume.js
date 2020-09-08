@@ -15,15 +15,22 @@ class Resume extends Component {
                 <Grid>
                     <Cell className="resume-right-col" col={12}>
                         <ResumeUpload />
-                        <h2>Summary</h2>
-                        <Summary />
+                        <h1>Grant Posell</h1>
+                        {/* <h2>Summary</h2>
+                        <Summary />  */}
                         <hr style={{ borderTop: '3px solid #003973' }} />
                         <h2>Education</h2>
                         <Education
-                        endMonth="July"
-                        endYear={2018}
-                        schoolName="University of Texas - Houston Coding Bootcamp"
-                        degree="•	Certificate in Full Stack Web Development " 
+                            endMonth="December"
+                            endYear={2021}
+                            schoolName="American University"
+                            degree="•	M.S. in Business Analytics "
+                        />
+                        <Education
+                            endMonth="July"
+                            endYear={2018}
+                            schoolName="University of Texas - Houston Coding Bootcamp"
+                            degree="•	Certificate in Full Stack Web Development "
                         />
                         <Education
                             endMonth="December"
@@ -38,7 +45,7 @@ class Resume extends Component {
                             degree="•	A.A. in Foreign Language "
                         />
                         <hr style={{ borderTop: '3px solid #003973' }} />
-                        <h2 style={{marginBottom: '0px'}}>Technical Skills</h2>
+                        <h2 style={{ marginBottom: '0px' }}>Technical Skills</h2>
                         <TechSkills
                             language="Languages"
                             languages="HTML, CSS, and JavaScript, JSON"
@@ -56,18 +63,18 @@ class Resume extends Component {
                         <hr style={{ borderTop: '3px solid #003973' }} />
                         <h2>Projects</h2>
                         <ResumeProjects
-                        projectName="Stock Market Pets"
-                        projectDescription1="•	Developed the social aspect of our application by coding the backend working with JavaScript, Node.js, MySQL, and MongoDB."
-                        projectDescription2="•	The features that we created were the ability to find, select, add friends, and talk more over a platform forum."
+                            projectName="Stock Market Pets"
+                            projectDescription1="•	Developed the social aspect of our application by coding the backend working with JavaScript, Node.js, MySQL, and MongoDB."
+                            projectDescription2="•	The features that we created were the ability to find, select, add friends, and talk more over a platform forum."
                         />
                         <ResumeProjects
-                        projectName="Hiking Application"
-                        projectDescription1="•	Worked in a team to build a hiking application that uses HTML5, CSS3, JavaScript, Bootstrap, Google Maps RESTful APIs, Hike Project API, Open Weather API, and Google Firebase."
-                        projectDescription2="•	This application can be found under WAAG in Github and was made to help people locate hiking trails in any given area."
+                            projectName="Hiking Application"
+                            projectDescription1="•	Worked in a team to build a hiking application that uses HTML5, CSS3, JavaScript, Bootstrap, Google Maps RESTful APIs, Hike Project API, Open Weather API, and Google Firebase."
+                            projectDescription2="•	This application can be found under WAAG in Github and was made to help people locate hiking trails in any given area."
                         />
                         <ResumeProjects
-                        projectName="FareTrade"
-                        projectDescription1="•	Worked in a team to build a platform by which locals can buy and sell local products. The application was built using HTML5, CSS3, JavaScript, jQuery, Bootstrap, Node.js, OAuth, MySQL, and deployed using Heroku. "
+                            projectName="FareTrade"
+                            projectDescription1="•	Worked in a team to build a platform by which locals can buy and sell local products. The application was built using HTML5, CSS3, JavaScript, jQuery, Bootstrap, Node.js, OAuth, MySQL, and deployed using Heroku. "
                         />
                         <hr style={{ borderTop: '3px solid #003973' }} />
 
@@ -99,7 +106,7 @@ class Resume extends Component {
                             jobName="Connective Talent"
                             jobPosition1="Associate Recruiter"
                             jobDescription1="•	Utilizes Bullhorn CRM Software, Monster and LinkedIn with Boolean search strings to populate a list for Cold Calling."
-                            jobDescription2="•	Creates conversation with candidates to understand their situation with the intent to help them in their careers." 
+                            jobDescription2="•	Creates conversation with candidates to understand their situation with the intent to help them in their careers."
                         />
                         <hr style={{ borderTop: '3px solid #003973' }} />
                         <ResumeUpload />
