@@ -28,7 +28,7 @@ class Resume extends Component {
                         <Education
                             endMonth="July"
                             endYear={2018}
-                            schoolName="University of Texas - Houston Coding Bootcamp"
+                            schoolName="University of Texas"
                             degree="•	Certificate in Full Stack Web Development "
                         />
                         <Education

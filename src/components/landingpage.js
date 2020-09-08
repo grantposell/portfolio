@@ -18,6 +18,7 @@ class LandingPage extends Component {
                             <h1><Typed strings={['Product Developer','Full Stack Web Developer','Product Management']} typeSpeed={100} backSpeed={100} smartBackspace = {true} loop = {true}>
                             </Typed></h1>
                             <hr />
+                            <br/>
                             <p>HTML/CSS | JavaScript | React | NodeJS | MongoDB | MySQL | Firebase</p>
                             <div className="social-links">
                                 {/* LinkedIn */}
