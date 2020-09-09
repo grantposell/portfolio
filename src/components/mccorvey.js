@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 
-class OldExperience extends Component {
+class Mccorvey extends Component {
     render() {
         return (
             <Grid>
@@ -15,10 +15,14 @@ class OldExperience extends Component {
                     
                     <p>{this.props.jobDescription1}<br />
                         {this.props.jobDescription2}<br />
+                        {this.props.jobDescription3}<br />
+                        {this.props.jobDescription4}<br />
+                        {this.props.jobDescription5}<br />
+                        {this.props.jobDescription6}<br />
                     </p>
                 </Cell>
             </Grid>
         )
     }
 }
-export default OldExperience;
+export default Mccorvey;

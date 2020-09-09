@@ -12,8 +12,9 @@ class Experience extends Component {
                     <h4 style={{ marginTop: '0px', marginBottom: "0px", }}>{this.props.jobName}</h4>
                     <h6 style={{ marginTop: "0px",marginBottom: "0px", }}>{this.props.jobPosition1} ({this.props.jobPosition1StartMonthDate} {this.props.jobPosition1StartYearDate} - {this.props.jobPosition1End})</h6>
                         <p>
-                        {this.props.jobDescriptionA1}<br />
-                            {this.props.jobDescriptionA2}
+                        {this.props.jobDescriptionA1}
+                        <br />
+                        {this.props.jobDescriptionA2}
                         <br />
                         {this.props.jobDescriptionA3}
                         <br />

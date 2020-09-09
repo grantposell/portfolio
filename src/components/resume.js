@@ -3,6 +3,8 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import TechSkills from './techskills';
 import ResumeProjects from './resumeprojects';
+import Fenix from './fenix';
+import Mccorvey from './mccorvey';
 import Experience from './experience';
 import OldExperience from './oldexperience';
 import ResumeUpload from './resumeupload';
@@ -65,10 +67,36 @@ class Resume extends Component {
                         />
                         <hr style={{ borderTop: '3px solid #003973' }} />
                         <h2>Experience</h2>
+                        <Mccorvey
+                            startMonth="January"
+                            startYear={2020}
+                            endMonth="Present"
+                            jobName="McCorvey Sheet Metal Works L.P."
+                            jobPosition1="product Developer"
+                            jobDescription1="•	Product Owner over technology suites within McCorvey Companies."
+                            jobDescription2="•	Prototyping, creating, and testing web application solutions in JavaScript Stack."
+                            jobDescription3="•	Architecting Web Solutions to improve employee workflows."
+                            jobDescription4="•	Coordinating information gathering sessions with the Executive Vice President, Operations, Recruiting, HR, and Accounting to facilitate the build out of the Avionte Applicant Tracking System."
+                            jobDescription5="•	Architected Company Database in Airtable to be connected with the Applicant Tracking System and Paycom."
+                            jobDescription6="•	Curating product launches and facilitating employee training sessions on upgrades to software."
+                        />
+                        <Fenix
+                            startMonth="October"
+                            startYear={2019}
+                            endMonth="January"
+                            endYear={2020}
+                            jobName="Fenix Power"
+                            jobPosition1="Chief Operations Officer"
+                            jobDescription1="•	Founding Member from ChargeShare purchased by Fēnix Power."
+                            jobDescription2="•	Technology startup focused on building battery and charging solutions for Electric Vehicles."
+                            jobDescription3="•	Managed Web Developer, Industrial Designer and overall operations of the startup."
+                            jobDescription4="•	Built out technical processes and worked with customers on their orders."
+                        />
                         <Experience
                             startMonth="May"
                             startYear={2018}
-                            endYear="Present"
+                            endMonth="September"
+                            endYear={2019}
                             jobName="Insperity"
                             jobPosition1="Web Developer"
                             jobPosition1StartMonthDate="January"
