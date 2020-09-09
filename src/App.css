@@ -91,7 +91,7 @@ background: linear-gradient(to right, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, F
   padding-right: 5rem;
 }
 .resume-right-col{
-  background: #737673;
+  background: rgb(160,160,160);
   color: white;
   padding: 2em;
 }

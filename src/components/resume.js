@@ -72,7 +72,7 @@ class Resume extends Component {
                             startYear={2020}
                             endMonth="Present"
                             jobName="McCorvey Sheet Metal Works L.P."
-                            jobPosition1="product Developer"
+                            jobPosition1="Product Developer"
                             jobDescription1="•	Product Owner over technology suites within McCorvey Companies."
                             jobDescription2="•	Prototyping, creating, and testing web application solutions in JavaScript Stack."
                             jobDescription3="•	Architecting Web Solutions to improve employee workflows."
