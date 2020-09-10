@@ -45,12 +45,23 @@ class Process extends Component {
                     <p>We have now gathered important information to help build, change or revise a product. We now need to cut down our information by using a method to decipher what is needed. In my past experience, teams have used a Weighted Decision Matrix to allocate values to important facets of a process or product, evaluate the information by assigning them a value from 1-5, and then adding up the values and multiplying by the weighting to then get a total score. At the end of the process, you will know what product, process, or piece of information to use regardless of bias.
                     </p>
                     <h3>Selection</h3>
-
+                    <p>Once you have evaluated all of the information, products, or processes with the Weighted Decision Matrix, it will be evident what needs to be added to the organization. The key part in moving forward with a decision means that the core three integral parties need to be consulted before proceeding. These are the core questions that you must ask before continuing:</p>
+                    <ul>
+                        <li>Does the product, process or end result fulfill the vision of The Inceptor?</li>
+                        <li>Does The Keyman approve of the project, see it as a need, and willing to endorse the change?</li>
+                        <li>Does the product, process or end result reflect the Stakeholders concerns and address them?</li>
+                    </ul>
+                    <p>If all of these core questions are answered with a "yes", it will appear that you are on track to a successful implemention.</p>
                     <h3>Implementation</h3>
+                    <h4>Planning</h4>
 
+                    
                     <h3>Evaluation</h3>
 
                     <h3>Improvement or Deprecate</h3>
+
+
+                    <h3>Resources</h3>
 
 
                 </Cell>
