@@ -44,6 +44,7 @@ class Process extends Component {
                     <h4>Criteria</h4>
                     <p>We have now gathered important information to help build, change or revise a product. We now need to cut down our information by using a method to decipher what is needed. In my past experience, teams have used a Weighted Decision Matrix to allocate values to important facets of a process or product, evaluate the information by assigning them a value from 1-5, and then adding up the values and multiplying by the weighting to then get a total score. At the end of the process, you will know what product, process, or piece of information to use regardless of bias.
                     </p>
+                    <hr/>
                     <h3>Selection</h3>
                     <p>Once you have evaluated all of the information, products, or processes with the Weighted Decision Matrix, it will be evident what needs to be added to the organization. The key part in moving forward with a decision means that the core three integral parties need to be consulted before proceeding. These are the core questions that you must ask before continuing:</p>
                     <ul>
@@ -52,28 +53,29 @@ class Process extends Component {
                         <li>Does the product, process or end result reflect the Stakeholders concerns and address them?</li>
                     </ul>
                     <p>If all of these core questions are answered with a "yes", it will appear that you are on track to a successful implemention.</p>
+                    <hr/>
                     <h3>Implementation</h3>
                     <h4>Planning</h4>
-
-                    
+                    <p>Implementing the new product, process, or idea requires a plan for how it will be released to the Stakeholders. In every release, the requirements for the product will need to be verified before it starts going out and then a crucial part of the rollout is training the people needed for the product to be successful. Alternatively, building a product for external stakeholders such as consumers will require preparation videos for them as well such as videos for a Learning Management System. Releases to consumers can often be done in two main ways: A staggered release or a bulk launch.</p>
+                    <p>Both release types will include focus group testing to refine the product for the end user. The part that differiates the two are whether or not everyone gets access when the product is launched to the stakeholder. Staggered releases include releasing the product to a limited group of people to control any bugs that may occur while bulk launches are sent out to everyone in the Stakeholder group.</p>
+                    <h4>Training</h4>
+                    <p>Prior to the launch of the product, the team that is responsible for the product will need to convey the necessary information needed to the end user in order to make sure the launch is successful. A common practice is building step by step videos for processes within the product. These videos will generally last between 30 seconds to 3 minutes depending on feature.These videos serve a function to train internal employees as well as consumers who are adopting the product.</p>
+                    <h4>Roll Out</h4>
+                    <p>The launch day is here! You have made it! This day will not define your product. Some products get mass adoption day one but their systems fail them and often there are issues. Other products see gradual success and don't face any major issues. It just depends on how much you and your counterparts prepare for this day and how the product is rolled out to the Stakeholders.</p>
+                    <hr/>
                     <h3>Evaluation</h3>
-
-                    <h3>Improvement or Deprecate</h3>
-
-
+                    <p>In every product launch there is a measure to show whether or not if a product was successful. Key metrics that generally determine this success are found in adoption by consumers, retention rate, and referrals by current users. Important facets that display issues are consumers abandoning the platform, high consumer bounce rate, and low consistency use. Many of these items can be redeemed by understanding the end user and making changes accordingly. Many changes like these can often be caught in focus testing a product but can be redeemed by simply using consumers to get feedback and update the product before further damage is done.</p>
+                    <hr/>
+                    <h3>Improve or Deprecate</h3>
+                    <p>In every product lifecycle there is a time when a company decides to either improve upon a product or deprecate it. The deciding factor comes whether there are development costs that outweigh the nearest benefit or if their is a product that requires less time and money to migrate to for business improvementment. Many times companies will change SaaS providers because of better features and similar pricing options. Alternatively, green field products built internally are often invested in by a company and their development department.</p>
+                    <hr/>
                     <h3>Resources</h3>
-
+                    <ul>
+                        <li>Product Management - ProdBOK</li>
+                        <li>Project Management Institute - PMBOK</li>
+                    </ul>
 
                 </Cell>
-                <Cell col={4}></Cell>
-                <Cell col={8}>
-                    <p>
-                        Building a Web Application or Product starts with knowing the end user. An end user can be a consumer, client, or internal employee.
-                        Any stakeholder has an idea of what they want in an end product
-                    </p>
-                </Cell>
-                <Cell col={4}></Cell>
-                <Cell col={8}></Cell>
                 <Cell col={4}></Cell>
             </Grid>
         )
