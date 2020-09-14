@@ -21,13 +21,13 @@ class Process extends Component {
                         <li>The Inceptor</li>
                         <li>The Stakeholders</li>
                     </ul>
-                    <h4>The Keyman</h4>
+                    <h5>The Keyman</h5>
                     <p>
                         "The Keyman" is a term that has beencoined in Construction. This phrase often describes the main point person who is the gatekeeper to whether or not a project can be started. This person or entity has the ability to start or kill projects on a whim. This person is often the Board of Directors, Executive Suite, or Venture Capital that determimes the strategy of the company. It's important to get their approval whenever working on a product that will make a significant impact on the business.
                     </p>
-                    <h4>The Inceptor</h4>
+                    <h5>The Inceptor</h5>
                     <p>"The Inceptor" is the person or entity that conceives a brilliant idea, new product line or project that will be worked on. This person generally has a vision for how the product or project should be carried out. This entity generally is charasmatic about the product and is highly invested. If your product satisfies this person, they will endorse the project to the end of the earth. Alternatively, this person can lobby against the product and make fulfillment very difficult.</p>
-                    <h4>The Stakeholders</h4>
+                    <h5>The Stakeholders</h5>
                     "The Stakeholders" are the people or entity that will be using the product or new addition. Get to know what they like, how they work, and what makes them the most efficient. Stakeholders are often vocal about things that they really like or really dislike similar to The Inceptor but these are the people that are affected the most by the change. Understanding how they work on a daily basis and what they prefer will help in finding the right product to suit their needs.
                     <hr />
                     <h3 style={{textDecoration: 'underline'}}>Research</h3>
