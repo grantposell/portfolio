@@ -8,7 +8,7 @@ class Process extends Component {
                 <Cell col={8}>
                     <h2>Product Management Process</h2>
                     <h3>Inception</h3>
-                    <p>Great ideas come from a lot of different experiences. Colleagues in the work place have an idea for a product, President of the Business invisions a strategic need, or an improvement is born out of pure neceessity.</p>
+                    <p>Great ideas come from a lot of different experiences. Colleagues in the work place have an idea for a product, President of the Business invisions a strategic need, or an improvement is born out of pure necessity.</p>
                     <p>Whether the idea is an improvement on an existing product or the birth of a new realization, one must do the proper due dilligence to understand what is needed to produce the most ideal outcome.</p>
                     <h4>Requirements Gathering</h4>
                     <p>There are three integral parts to Requirements Gathering that leads to the success or failure of product evolution. The important pieces to a succesful equation are:</p> 
