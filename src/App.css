@@ -95,7 +95,9 @@ background: linear-gradient(to right, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, F
   color: white;
   padding: 2em;
 }
-
+.p{
+  text-align: justify;
+}
 @media all and (max-width: 320px) {
   .banner-text h1{
     font-size: 30px;
