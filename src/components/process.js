@@ -4,7 +4,7 @@ import { Grid, Cell } from 'react-mdl';
 class Process extends Component {
     render() {
         return (
-            <Grid>
+            <Grid className="product-management">
                 <Cell col={12}>
                 <h2 style={{ textAlign: 'center', fontStyle: 'italic' }}>Product Management Process</h2>
                 </Cell>

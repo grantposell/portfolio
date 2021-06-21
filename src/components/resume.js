@@ -2,12 +2,13 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import TechSkills from './techskills';
-import ResumeProjects from './resumeprojects';
+// import ResumeProjects from './resumeprojects';
 import Fenix from './fenix';
 import Mccorvey from './mccorvey';
 import Experience from './experience';
 import OldExperience from './oldexperience';
 import ResumeUpload from './resumeupload';
+import L3Comm from './l3comm';
 
 class Resume extends Component {
     render() {
@@ -53,24 +54,36 @@ class Resume extends Component {
                             prototype="Prototyping Tools"
                             prototyping="Figma, Balsamiq"
                             language="Languages"
-                            languages="HTML, CSS, and JavaScript, JSON"
-                            framework="Framework"
-                            frameworks="ReactJS & Angular 6"
+                            languages="HTML, CSS, JavaScript, and R"
+                            framework="Front End Framework"
+                            frameworks="ReactJS"
                             library="Library"
-                            libraries="Bootstrap, AJAX, and REST APIs"
+                            libraries="Bootstrap, Material UI, AJAX, and REST APIs"
                             database="Database"
-                            databases="Firebase, MySQL, and MongoDB"
+                            databases="Google Firebase, MySQL, AWS S3, and MongoDB"
                             serverside="Server-Side"
-                            serversides="Node.js & PHP"
+                            serversides="Node.js"
                             versioncontrol="Version Control"
                             versioncontrols="GitHub, Team Foundation Server (TFS), GitLab"
                         />
                         <hr style={{ borderTop: '3px solid #003973' }} />
                         <h2>Experience</h2>
+                        <L3Comm
+                            startMonth="February"
+                            startYear={2021}
+                            endMonth="Current"
+                            jobName="Layer 3 Communications"
+                            jobPosition1="Business Process Developer"
+                            jobDescription1="•	Built a Marketing promotional website front-end with HTML, CSS, and JavaScript."
+                            jobDescription2="•	Conducted internal stakeholder meetings to document GitHub repositories via VSCode, GIT and Terminal.  "
+                            jobDescription3="•	Utilized Microsoft Project and Microsoft Visio to build out an Advanced Services Product Roadmap."
+                            jobDescription4="•	Facilitating Prototyping, Process Workflow, Product Management, and Customer Relations for Layer 3 Communications Advanced Services Products in the western region. "
+                        />
                         <Mccorvey
                             startMonth="January"
                             startYear={2020}
-                            endMonth="Present"
+                            endMonth="November"
+                            endYear={2020}
                             jobName="McCorvey Sheet Metal Works L.P."
                             jobPosition1="Product Developer"
                             jobDescription1="•	Product Owner over technology suites within McCorvey Companies."
@@ -121,22 +134,6 @@ class Resume extends Component {
                             jobPosition1="Associate Recruiter"
                             jobDescription1="•	Utilizes Bullhorn CRM Software, Monster and LinkedIn with Boolean search strings to populate a list for Cold Calling."
                             jobDescription2="•	Creates conversation with candidates to understand their situation with the intent to help them in their careers."
-                        />
-                        <hr style={{ borderTop: '3px solid #003973' }} />
-                        <h2>Projects</h2>
-                        <ResumeProjects
-                            projectName="Stock Market Pets"
-                            projectDescription1="•	Developed the social aspect of our application by coding the backend working with JavaScript, Node.js, MySQL, and MongoDB."
-                            projectDescription2="•	The features that we created were the ability to find, select, add friends, and talk more over a platform forum."
-                        />
-                        <ResumeProjects
-                            projectName="Hiking Application"
-                            projectDescription1="•	Worked in a team to build a hiking application that uses HTML5, CSS3, JavaScript, Bootstrap, Google Maps RESTful APIs, Hike Project API, Open Weather API, and Google Firebase."
-                            projectDescription2="•	This application can be found under WAAG in Github and was made to help people locate hiking trails in any given area."
-                        />
-                        <ResumeProjects
-                            projectName="FareTrade"
-                            projectDescription1="•	Worked in a team to build a platform by which locals can buy and sell local products. The application was built using HTML5, CSS3, JavaScript, jQuery, Bootstrap, Node.js, OAuth, MySQL, and deployed using Heroku. "
                         />
                         <hr style={{ borderTop: '3px solid #003973' }} />
                         <ResumeUpload />

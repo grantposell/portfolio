@@ -7,24 +7,24 @@ class TechSkills extends Component {
             <Grid>
                 <Cell col={4}>
                 <p>
-                    {this.props.projecttool}:<br/> 
-                    {this.props.prototype}:<br/> 
                     {this.props.language}:<br/> 
-                    {this.props.framework}:<br/>
                     {this.props.library}:<br/>
                     {this.props.database}:<br/>
+                    {this.props.projecttool}:<br/> 
+                    {this.props.prototype}:<br/> 
+                    {this.props.framework}:<br/>
                     {this.props.serverside}:<br/> 
                     {this.props.versioncontrol}:<br/>    
                 </p>
                 </Cell>
                 <Cell col={8}>
                 <p>
-                    {this.props.projecttools}<br/> 
-                    {this.props.prototyping}<br/> 
-                    {this.props.languages}<br/> 
-                    {this.props.frameworks}<br/>
+                    {this.props.languages}<br/>
                     {this.props.libraries}<br/>
                     {this.props.databases}<br/>
+                    {this.props.projecttools}<br/> 
+                    {this.props.prototyping}<br/> 
+                    {this.props.frameworks}<br/>
                     {this.props.serversides}<br/> 
                     {this.props.versioncontrols}<br/> 
                 </p>
