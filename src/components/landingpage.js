@@ -14,12 +14,13 @@ class LandingPage extends Component {
                             src={require('../images/profile.jpeg')}
                             alt="avatar"
                             className="avatar-img" />
-                        <div className="banner-text">
-                            <h1><Typed strings={['Product Developer','Full Stack Web Developer','Product Management']} typeSpeed={100} backSpeed={100} smartBackspace = {true} loop = {true}>
+                        <div className="banner-text" style={{marginTop: '100px', marginBotton:'20px'}}>
+                            <h1><Typed strings={['Product Developer','Product Management', 'Project Manager','Full Stack Web Developer']} typeSpeed={100} backSpeed={100} smartBackspace = {true} loop = {true}>
                             </Typed></h1>
                             <hr />
                             <br/>
-                            <p>HTML/CSS | JavaScript | React | NodeJS | MongoDB | MySQL | Firebase</p>
+                            {/* <p>HTML/CSS | JavaScript | React | NodeJS | MongoDB | MySQL | Firebase</p>
+                            <p>HTML/CSS | JavaScript | React | NodeJS | MongoDB | MySQL | Firebase</p> */}
                             <div className="social-links">
                                 {/* LinkedIn */}
                                 <a href="https://www.linkedin.com/in/grantposell/" rel="noopener noreferrer" target="_blank">
@@ -30,6 +31,7 @@ class LandingPage extends Component {
                                     <i className="fa fa-github-square" aria-hidden="true" />
                                 </a>
                             </div>
+                            <br/>
                         </div>
                     </Cell>
                 </Grid>
