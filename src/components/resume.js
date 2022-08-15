@@ -50,9 +50,11 @@ class Resume extends Component {
                         <h2 style={{ marginBottom: '0px' }}>Technical Skills</h2>
                         <TechSkills
                             projecttool="Project Tools"
-                            projecttools="Asana, JIRA, Monday.com, and Slite"
+                            projecttools="Monday.com, Microsoft Project, Smartsheet, Asana, Atlassian JIRA,  and Slite"
+                            communicationtool="Communication Tools"
+                            communicationtools="Zoom, Microsoft Teams, Google Meet, and Slack"
                             prototype="Prototyping Tools"
-                            prototyping="Figma, Balsamiq"
+                            prototyping="Balsamiq, Figma"
                             language="Languages"
                             languages="HTML, CSS, JavaScript, and R"
                             framework="Front End Framework"
@@ -74,10 +76,11 @@ class Resume extends Component {
                             endMonth="Current"
                             jobName="Layer 3 Communications"
                             jobPosition1="Business Process Developer"
-                            jobDescription1="•	Built a Marketing promotional website front-end with HTML, CSS, and JavaScript."
-                            jobDescription2="•	Conducted internal stakeholder meetings to document GitHub repositories via VSCode, GIT and Terminal.  "
-                            jobDescription3="•	Utilized Microsoft Project and Microsoft Visio to build out an Advanced Services Product Roadmap."
-                            jobDescription4="•	Facilitating Prototyping, Process Workflow, Product Management, and Customer Relations for Layer 3 Communications Advanced Services Products in the western region. "
+                            jobDescription1="•	Implementing Monday.com for all of Layer 3 Communications, certified as a Solutions Architect SME, and coordinating training seminars for all stakeholders."
+                            jobDescription2="•	Built a Marketing promotional website front-end with HTML, CSS, and JavaScript."
+                            jobDescription3="•	Conducted internal stakeholder meetings to document GitHub repositories via VSCode, GIT and Terminal"
+                            jobDescription4="•	Utilized Microsoft Project and Microsoft Visio to build out an Advanced Services Product Roadmap. "
+                            jobDescription5="•	Facilitating Prototyping, Process Workflow, Product Management, and Customer Relations for Layer 3 Communications Managed Services Products in the Western Region. "
                         />
                         <Mccorvey
                             startMonth="January"

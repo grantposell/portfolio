@@ -13,6 +13,7 @@ class L3Comm extends Component {
                         {this.props.jobDescription2}<br />
                         {this.props.jobDescription3}<br />
                         {this.props.jobDescription4}<br />
+                        {this.props.jobDescription5}<br />
                     </p>
                 </Cell>
                 <Cell col={4}>
