@@ -92,14 +92,14 @@ background: linear-gradient(to right, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, F
   padding-right: 5rem;
 }
 .resume-right-col{
-  background: rgb(174,174,178);
-  color: white;
+  background: rgb(234, 234, 237);
+  color: black;
   padding: 2em;
   border-radius: 10px;
 }
 .product-management{
-  background: rgb(174,174,178);
-  color: white;
+  background: rgb(234, 234, 237);
+  color: black;
   padding: 2em;
 }
 .p{
