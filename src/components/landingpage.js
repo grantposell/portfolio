@@ -15,7 +15,7 @@ class LandingPage extends Component {
                             alt="avatar"
                             className="avatar-img" />
                         <div className="banner-text" style={{marginTop: '100px', marginBotton:'20px'}}>
-                            <h1><Typed strings={['Product Developer','Product Management', 'Project Manager','Full Stack Web Developer']} typeSpeed={100} backSpeed={100} smartBackspace = {true} loop = {true}>
+                            <h1><Typed strings={['Customer Success','Account Management','Product Manager', 'Project Manager']} typeSpeed={100} backSpeed={100} smartBackspace = {true} loop = {true}>
                             </Typed></h1>
                             <hr />
                             <br/>
