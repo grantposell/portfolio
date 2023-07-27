@@ -9,6 +9,7 @@ import Experience from './experience';
 import OldExperience from './oldexperience';
 import ResumeUpload from './resumeupload';
 import L3Comm from './l3comm';
+import Techtorch from './techtorch';
 
 class Resume extends Component {
     render() {
@@ -70,10 +71,26 @@ class Resume extends Component {
                         />
                         <hr style={{ borderTop: '3px solid #003973' }} />
                         <h2>Experience</h2>
+                        <Techtorch
+                            startMonth="December"
+                            startYear={2022}
+                            endMonth="July"
+                            endYear={2023}
+                            jobName="TechTorch"
+                            jobPosition1="Customer Success Director"
+                            jobDescription1="•	Product User Subject Matter Expert (SME) of the TechTorch SaaS product."
+                            jobDescription2="•	Spearheading the creation of the Customer Success office by researching, documenting, and implementing Customer Success best practices taught by Client Success, Gainsight and more."
+                            jobDescription3="•	Developing content in the platform for client use cases. "
+                            jobDescription4="•	Troubleshooting product bugs with customers and coordinating ticket resolution with Engineering using Loom. "
+                            jobDescription5="•	Creating customer demo environments to trial the TechTorch platform."
+                            jobDescription6="•	Developing sales outreach plans with Dripify campaigns, HubSpot, and LinkedIn Sales Navigator."
+                            jobDescription7="•	Presenting demo accounts and PowerPoints to prospective customers. "
+                        />
                         <L3Comm
                             startMonth="February"
                             startYear={2021}
-                            endMonth="Current"
+                            endMonth="December"
+                            endYear={2022}
                             jobName="Layer 3 Communications"
                             jobPosition1="Business Process Developer"
                             jobDescription1="•	Implementing Monday.com for all of Layer 3 Communications, certified as a Solutions Architect SME, and coordinating training seminars for all stakeholders."
