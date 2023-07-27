@@ -4,6 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 import LandingPage from './landingpage';
 import Contact from './contact';
 import Projects from './projects';
+import CS from './cs';
 import Process from './process';
 import Resume from './resume';
 
@@ -13,6 +14,7 @@ const Main = () => (
         <Route path="/contact" component = {Contact} />
         <Route path="/projects" component = {Projects} />
         <Route path="/process" component = {Process} />
+        <Route path="/customersuccess" component = {CS} />
         <Route path="/resume" component = {Resume} />
     </Switch>
 )

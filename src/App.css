@@ -1,8 +1,7 @@
-.header-color{
-   background: rgb(199, 199, 204);
-}
-.mdl-layout__header mdl-layout__header--scroll {
-  background-color: rgb(199, 199, 204); 
+.mdl-layout__header{
+  background-color: black !important;
+  
+  opacity: .8; 
 }
 .landing-grid{
 background-image: url('https://wallpaperaccess.com/full/5652027.png');

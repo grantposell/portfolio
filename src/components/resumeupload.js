@@ -8,7 +8,7 @@ class ResumeUpload extends Component {
                 <Cell col={10}>
                 </Cell>
                 <Cell col={2}>
-                <a href='./assets/images/Resume 2022 copy.docx' download>
+                <a href='./assets/images/Resume 2023 copy.docx' download>
                 <Button raised ripple colored style={{backgroundColor: '#003973'}}>Download
                 </Button> </a>
                 </Cell>
