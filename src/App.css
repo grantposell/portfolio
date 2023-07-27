@@ -1,12 +1,14 @@
 .header-color{
-  background: #003973;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #E5E5BE, #003973);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background: rgb(199, 199, 204);
+}
+.mdl-layout__header mdl-layout__header--scroll {
+  background-color: rgb(199, 199, 204); 
 }
 .landing-grid{
-  background: #003973;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #E5E5BE, #003973);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+,  Safari 7+ */
+background-image: url('https://wallpaperaccess.com/full/5652027.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
   text-align: center;
   position: fixed;
   top: 0;
