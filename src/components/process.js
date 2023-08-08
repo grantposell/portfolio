@@ -6,7 +6,7 @@ class Process extends Component {
         return (
             <Grid className="product-management">
                 <Cell col={12}>
-                    <h1 style={{ textAlign: 'center', fontStyle: 'italic' }}>My Process inspired by PMI</h1>
+                    <h1 style={{ textAlign: 'center', fontStyle: 'italic' }}>My PM Process inspired by PMI</h1>
                 </Cell>
 
                 <div style={{ margin: '20px', }}>

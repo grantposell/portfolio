@@ -98,8 +98,8 @@ background-size: cover;
   padding: 2em;
   border-radius: 10px;
 }
-.product-management{
-  background: rgb(234, 234, 237);
+.product-management, .customer-success{
+  background: rgb(234, 234, 237) cover;
   color: black;
   padding: 2em;
 }
