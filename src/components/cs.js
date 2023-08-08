@@ -94,12 +94,12 @@ class CS extends Component {
                             <p style={{ textAlign: 'justify' }}>
                                 When comparing customer success software, consider factors such as pricing, scalability, ease of use, integration capabilities, and customer support. It's advisable to request demos, speak with vendors, and read user reviews to find the software that best aligns with your business needs and goals. Additionally, since new solutions might have emerged after my last update, always stay up-to-date with the latest offerings in the market.
                             </p>
-                            <hr />
+                            {/* <hr />
                             <h3 style={{ fontStyle: 'italic' }}>Resources</h3>
                             <ul>
                                 <li>Product Management - ProdBOK</li>
                                 <li>Project Management Institute - PMBOK</li>
-                            </ul>
+                            </ul> */}
                         </Cell>
                         <Cell col={4}></Cell>
                     </Grid>
